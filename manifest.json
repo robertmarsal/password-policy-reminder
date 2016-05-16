@@ -1,0 +1,17 @@
+{
+    "author": "Robert Boloc <robertboloc@gmail.com>",
+    "manifest_version": 2,
+    "name": "Password Policy Reminder",
+    "description": "Get a reminder of the password policy for the current website.",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.com/login*"
+            ],
+            "js": [
+                "js/content.js"
+            ]
+        }
+    ]
+}
