@@ -11,7 +11,13 @@
             ],
             "js": [
                 "js/content.js"
+            ],
+            "css": [
+                "css/content.css"
             ]
         }
+    ],
+    "web_accessible_resources": [
+        "html/content.html"
     ]
 }

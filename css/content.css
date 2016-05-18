@@ -1,0 +1,14 @@
+#ppr-banner {
+    padding: 5px;
+    background: #333333;
+    color: #F6F6F6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+#ppr-banner svg {
+    vertical-align: sub;
+}
