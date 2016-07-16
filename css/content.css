@@ -1,7 +1,7 @@
 #ppr-banner {
-    padding: 5px;
-    background: #333333;
-    color: #F6F6F6;
+    padding: 15px 5px;
+    background: #F7DF04;
+    color: #111;
     position: absolute;
     top: 0;
     left: 0;
@@ -10,6 +10,6 @@
     z-index: 10000;
 }
 
-#ppr-banner svg {
-    vertical-align: sub;
+#ppr-banner-policy {
+    color: #DB4C1C;
 }
