@@ -1,5 +1,4 @@
 #ppr-banner {
-    padding: 15px 5px;
     background: #F7DF04;
     color: #111;
     position: absolute;
@@ -7,6 +6,9 @@
     left: 0;
     width: 100%;
     font-weight: bold;
+    line-height: 30px;
+    text-indent: 10px;
+    // Try to put this on top of everything
     z-index: 10000;
 }
 
