@@ -7,4 +7,8 @@ var data = {
         match: /\/(login|ServiceLogin)/,
         policy: 'at least 8 characters',
     },
+    'github.com': {
+        match: /\/login/,
+        policy: 'at least one lowercase letter, one numeral, and 7 characters',
+    },
 }
