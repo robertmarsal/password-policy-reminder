@@ -1,10 +1,6 @@
 // Detect if we are on a valid page
-var content = {
-    'https://www.facebook.com/login.php': 'a combination of at least six numbers, letters and punctuation marks (like ! and &)',
-    'https://accounts.google.com/login': 'at least 8 characters',
-}
-
-var url = window.location.href;
+var host = window.location.host;
+var path = window.location.pathname;
 
 function injectBanner(policy) {
     // Inject the banner
@@ -25,6 +21,6 @@ function injectBanner(policy) {
 }
 
 // If we are not on a valid page stop here
-if (content.hasOwnProperty(url)) {
-    injectBanner(content[url]);
+if (data.hasOwnProperty(host) && path.match(data[host].match)) {
+    injectBanner(data[host].policy);
 }
