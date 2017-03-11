@@ -20,3 +20,4 @@ functionality.
 * Google
 * Facebook
 * Github
+* Netflix
